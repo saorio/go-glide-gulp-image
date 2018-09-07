@@ -1,6 +1,5 @@
 FROM golang:1.11
 
-
 RUN curl https://glide.sh/get | sh
 RUN apt-get update
 RUN curl -sL https://deb.nodesource.com/setup_7.x | bash -
