@@ -1,4 +1,4 @@
-FROM golang:1.11.4
+FROM golang:1.12
 
 RUN curl https://glide.sh/get | sh
 RUN apt-get update
