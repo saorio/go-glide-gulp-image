@@ -8,5 +8,4 @@ RUN npm rebuild node-sass --force
 RUN npm install -g gulp-cli
 RUN npm install "gulpjs/gulp.git#4.0"
 RUN go get -u github.com/golang/dep/cmd/dep
-RUN go get -u github.com/alecthomas/gometalinter
-RUN gometalinter --install
+RUN go get -u github.com/golangci/golangci-lint/cmd/golangci-lint
